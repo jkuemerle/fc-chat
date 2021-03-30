@@ -21,6 +21,7 @@
             liveagent.showWhenOnline('5731U000000Mu7c', document.getElementById('liveagent_button_online_5731U000000Mu7c'));
             liveagent.showWhenOffline('5731U000000Mu7c', document.getElementById('liveagent_button_offline_5731U000000Mu7c'));
         });
+        liveagent.findOrCreate("fqs_Category__c");
         embedded_svc.settings.extraPrechatInfo = [{
             "entityName": "fqs_Category__c",
             "showOnCreate": true,
